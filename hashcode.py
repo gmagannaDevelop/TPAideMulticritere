@@ -40,7 +40,7 @@ r=0
 for i in range(349):
     line = "28"
     for j in range(28):
-        line += " "+str(j)
+        line += " "+str(j) #str =string
     line += "\n"
 
     out.write("28"+" "+ str(r) +" "+ str(r+1)+" "+ str(r+2)+"\n")
